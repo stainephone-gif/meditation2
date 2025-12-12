@@ -32,7 +32,7 @@ fun BreathingCircle(
         label = "breathing_progress"
     )
 
-    val size by animateFloatAsState(
+    val animatedSize by animateFloatAsState(
         targetValue = when (phase) {
             BreathingPhase.INHALE -> 0.8f + (animatedProgress * 0.2f)
             BreathingPhase.HOLD1 -> 1.0f
@@ -65,7 +65,7 @@ fun BreathingCircle(
     ) {
         Canvas(modifier = Modifier.fillMaxSize()) {
             val canvasSize = size.width
-            val circleSize = canvasSize * size
+            val circleSize = canvasSize * animatedSize
 
             // Outer circle (stroke)
             drawCircle(
