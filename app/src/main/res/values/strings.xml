@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MindfulMoments</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Главная</string>
+    <string name="nav_practices">Практики</string>
+    <string name="nav_timer">Таймер</string>
+    <string name="nav_progress">Прогресс</string>
+
+    <!-- Home Screen -->
+    <string name="home_welcome">Добро пожаловать</string>
+    <string name="home_quick_start">Быстрый старт</string>
+    <string name="home_today_progress">Сегодня</string>
+    <string name="home_minutes">минут</string>
+
+    <!-- Practices -->
+    <string name="practices_breathing">Дыхание</string>
+    <string name="practices_meditation">Медитация</string>
+    <string name="practices_quick">Быстрые техники</string>
+
+    <!-- Breathing -->
+    <string name="breathing_478">4-7-8 дыхание</string>
+    <string name="breathing_box">Box дыхание</string>
+    <string name="breathing_deep">Глубокое дыхание</string>
+    <string name="breathing_energizing">Энергизирующее</string>
+
+    <!-- Meditation -->
+    <string name="meditation_body_scan">Body Scan</string>
+    <string name="meditation_mindfulness">Осознанность</string>
+    <string name="meditation_visualization">Визуализация</string>
+    <string name="meditation_loving_kindness">Любящая доброта</string>
+
+    <!-- Quick Techniques -->
+    <string name="quick_54321">5-4-3-2-1</string>
+    <string name="quick_muscle_relax">Мышечная релаксация</string>
+    <string name="quick_thought_cloud">Наблюдение за мыслями</string>
+
+    <!-- Timer -->
+    <string name="timer_duration">Длительность</string>
+    <string name="timer_start">Начать</string>
+    <string name="timer_pause">Пауза</string>
+    <string name="timer_stop">Остановить</string>
+
+    <!-- Progress -->
+    <string name="progress_total_time">Всего времени</string>
+    <string name="progress_sessions">Сессий</string>
+    <string name="progress_streak">Дней подряд</string>
+    <string name="progress_achievements">Достижения</string>
+</resources>
